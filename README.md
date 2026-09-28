@@ -1,8 +1,10 @@
-Templates for extracting data from websites using the [Obsidian Web Clipper](https://obsidian.md/clipper) browser extension.
+A collection of templates for extracting metadata and content from websites using the [Obsidian Web
+Clipper](https://obsidian.md/clipper) browser extension as Obsidian notes.
 
 ## Compatibility
 
-The templates are designed to work with the vault structure as described in Steph Ango's [blog post](https://stephango.com/vault).
+The templates are designed to work with the vault structure as described in Steph Ango's [blog
+post](https://stephango.com/vault).
 
 ## Templates
 
@@ -17,5 +19,5 @@ Taken from [kepano/clipper-templates](https://github.com/kepano/clipper-template
 
 ##### Reddit
 
-Extracts the main content of the post and formats code inside a `code`-block. Additionally, if
-a permalink to a specific comment is clipped, that comments content will also be added to the note.
+Extracts the main content of the post and formats code inside a `code`-block. Additionally, if a
+permalink to a specific comment is clipped, that comments content will also be added to the note.
