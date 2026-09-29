@@ -17,6 +17,10 @@ Taken from [kepano/clipper-templates](https://github.com/kepano/clipper-template
 - [YouTube](/templates/youtube-clipper.json)
 - [Wikipedia](/templates/wikipedia-clipper.json)
 
+To be done:
+
+- [ ] Substack Note
+
 ## Template Specifics
 
 ##### Reddit
