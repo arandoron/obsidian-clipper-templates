@@ -1,0 +1,53 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Substack Publication",
+	"behavior": "create",
+	"noteContentFormat": "{{content}}",
+	"properties": [
+		{
+			"name": "categories",
+			"value": "[[Clippings]]",
+			"type": "multitext"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{selector:div.post-header a.decoration-hover-underline-pzycpc|wikilink}}",
+			"type": "multitext"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "published",
+			"value": "{{published|date:YYYY-MM-DD}}",
+			"type": "date"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "tags",
+			"value": "clippings, substack",
+			"type": "multitext"
+		}
+	],
+	"triggers": [
+		"/^https:\\/\\/[a-z-.]+\\.substack\\.com\\/p\\/.*$/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "Clippings"
+}

@@ -9,8 +9,8 @@ post](https://stephango.com/vault).
 ## Templates
 
 - [Reddit](/templates/reddit-clipper.json)
-
 - [Substack Post](/templates/substack-post-clipper.json)
+- [Substack Publication](/templates/substack-publication-clipper.json)
 
 Taken from [kepano/clipper-templates](https://github.com/kepano/clipper-templates):
 
@@ -26,4 +26,13 @@ permalink to a specific comment is clipped, that comments content will also be a
 
 ##### Substack Post
 
-Extracts the main content of a user post on their profile.
+Extracts the main content of a post on a personal Substack profile. Targets URLs like:
+
+> `https://substack.com/home/post/p-*`
+
+##### Substack Publication
+
+Extracts the main content of a publication on a specific Substack blog/newsletter. Targets URLS
+like:
+
+> `https://BLOGNAME.substack.com/p/*`
