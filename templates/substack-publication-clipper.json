@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "author",
-			"value": "{{selector:div.post-header a.decoration-hover-underline-pzycpc|wikilink}}",
+			"value": "{{selector:div.post-header span[data-state=\\\"closed\\\"] > a:not([aria-label])|wikilink}}",
 			"type": "multitext"
 		},
 		{
